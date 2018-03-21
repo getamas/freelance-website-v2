@@ -4,7 +4,7 @@
 /*-----------------------*/
 
 #hero
-    padding: 60px 0
+    padding: 120px 0
     margin-top: 80px
     background-image: url(../images/bg-pattern.png)
     background-repeat: repeat
@@ -80,18 +80,37 @@
 /*-------- SERVICES ---------*/
 /*---------------------------*/
 
+#services
+    .section-title
+        padding-bottom: 50px
+
+.service-block-inner
+    border: 5px solid #eee
+    padding: 50px 10px 20px 10px
+    margin-bottom: 20px
+    z-index: 2
+    position: relative
+    background-image: url(../images/bg-pattern.png)
+    background-repeat: repeat
+
 .service-block
     text-align: center
 
     .icon-wrapper
+        position: absolute
+        top: -60px
+        left: 50%
+        z-index: 3
         width: 120px
         height: 120px
+        background: #fff
         margin: 0 auto
         border-radius: 50%
         border: 5px solid #eee
         display: flex
         justify-content: center
         align-items: center
+        transform: translateX(-50%)
         
         .icon
             color: $base-color
@@ -117,3 +136,13 @@
             font-size: 22px
             padding-left: 7px
             vertical-align: middle
+            color: rgba(0,0,0,0.2)
+
+/*------------------------------*/
+/*-------- WEB DEVELOP ---------*/
+/*------------------------------*/
+
+.web-develop-img
+    background: url(../images/portfolio-mockup.jpg)
+    background-size: cover
+    height: 500px

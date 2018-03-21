@@ -374,7 +374,7 @@ a {
   color: #1abc9c; }
 
 section {
-  padding: 80px 0; }
+  padding: 100px 0; }
 
 .section-title {
   text-align: center;
@@ -449,8 +449,10 @@ section {
     text-transform: uppercase;
     letter-spacing: 1px;
     letter-spacing: .5px;
-    color: #16a085;
+    color: #7f8c8d;
     transition: all .1s ease-in-out; }
+    #main-nav .nav-link:hover {
+      color: #1abc9c; }
 
 .navbar-brand {
   color: #6c757d; }
@@ -466,7 +468,7 @@ section {
 /*-------- HERO ---------*/
 /*-----------------------*/
 #hero {
-  padding: 60px 0;
+  padding: 120px 0;
   margin-top: 80px;
   background-image: url(../images/bg-pattern.png);
   background-repeat: repeat;
@@ -544,11 +546,28 @@ section {
 /*---------------------------*/
 /*-------- SERVICES ---------*/
 /*---------------------------*/
+#services .section-title {
+  padding-bottom: 50px; }
+
+.service-block-inner {
+  border: 5px solid #eee;
+  padding: 50px 10px 20px 10px;
+  margin-bottom: 20px;
+  z-index: 2;
+  position: relative;
+  background-image: url(../images/bg-pattern.png);
+  background-repeat: repeat; }
+
 .service-block {
   text-align: center; }
   .service-block .icon-wrapper {
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    z-index: 3;
     width: 120px;
     height: 120px;
+    background: #fff;
     margin: 0 auto;
     border-radius: 50%;
     border: 5px solid #eee;
@@ -557,7 +576,8 @@ section {
     -ms-flex-pack: center;
         justify-content: center;
     -ms-flex-align: center;
-        align-items: center; }
+        align-items: center;
+    transform: translateX(-50%); }
     .service-block .icon-wrapper .icon {
       color: #1abc9c;
       font-size: 30px; }
@@ -576,4 +596,13 @@ section {
   .service-block .button .icon {
     font-size: 22px;
     padding-left: 7px;
-    vertical-align: middle; }
+    vertical-align: middle;
+    color: rgba(0, 0, 0, 0.2); }
+
+/*------------------------------*/
+/*-------- WEB DEVELOP ---------*/
+/*------------------------------*/
+.web-develop-img {
+  background: url(../images/portfolio-mockup.jpg);
+  background-size: cover;
+  height: 500px; }
