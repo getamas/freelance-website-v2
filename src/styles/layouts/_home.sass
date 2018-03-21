@@ -1,0 +1,76 @@
+
+/*-----------------------*/
+/*-------- HERO ---------*/
+/*-----------------------*/
+
+#hero
+    padding: 60px 0
+    margin-top: 80px
+    background-image: url(../images/bg-pattern.png)
+    background-repeat: repeat
+
+    .wrapper 
+        display: flex
+        align-items: center
+
+.profile-wrapper
+    display: flex
+    justify-content: center
+
+.profile
+    display: flex
+    align-items: center
+    margin-bottom: 20px
+
+.profile-img
+    width: 340px
+    border-radius: 50%
+    margin: 0 auto
+    border: 9px solid #eee
+    text-align: center
+    margin-bottom: 25px
+    margin-right: 35px
+
+    img
+        border-radius: 50%
+
+.profile-content
+    text-align: center
+    @media (max-width: 756px) 
+        padding-left: 0
+
+    h1.profile-name
+        font-size: 4.250em
+        text-transform: capitalize
+        line-height: 1
+        text-align: left
+        margin: 0
+        @media (max-width: 565px) 
+            font-size: 3em
+
+        span
+            font-weight: 600
+
+    h1.profile-profession
+        font-size: 3em
+        font-weight: 600
+        padding: 15px 0 5px 0
+        color: $base-color
+        text-align: left
+        margin: 0
+        @media (max-width: 565px) 
+            font-size: 1.75em
+
+        .badge
+            margin-left: 5px
+            vertical-align: middle
+            font-size: 60%
+
+    p
+        font-size: 1.875em
+        font-weight: 300
+        text-align: left
+        margin: 0
+        margin-bottom: 50px
+        @media (max-width: 565px)
+            font-size: 1.45em
