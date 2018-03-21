@@ -356,7 +356,7 @@ th {
 body {
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 16px;
-  color: #353535; }
+  color: #333; }
 
 img, video, canvas {
   max-width: 100%; }
@@ -372,6 +372,16 @@ a {
 
 .icon {
   color: #1abc9c; }
+
+section {
+  padding: 80px 0; }
+
+.section-title {
+  text-align: center;
+  margin-bottom: 80px; }
+  .section-title h2 {
+    font-family: 'Pacifico', Arial, sans-serif;
+    color: #16a085; }
 
 /*------------------------*/
 /*------- BUTTONS --------*/
@@ -406,6 +416,16 @@ a {
     .button.button-primary:active {
       background: #2980b9;
       border-bottom-width: 0px; }
+  .button.button-info {
+    background: #75CAEB;
+    border-color: #5fc1e8; }
+    .button.button-info:hover {
+      color: #fff;
+      margin-top: 1px;
+      border-bottom-width: 3px; }
+    .button.button-info:active {
+      background: #5fc1e8;
+      border-bottom-width: 0px; }
 
 /*-------------------------*/
 /*-------- NAVBAR ---------*/
@@ -429,6 +449,7 @@ a {
     text-transform: uppercase;
     letter-spacing: 1px;
     letter-spacing: .5px;
+    color: #16a085;
     transition: all .1s ease-in-out; }
 
 .navbar-brand {
@@ -448,7 +469,8 @@ a {
   padding: 60px 0;
   margin-top: 80px;
   background-image: url(../images/bg-pattern.png);
-  background-repeat: repeat; }
+  background-repeat: repeat;
+  border-bottom: 4px solid #eee; }
   #hero .wrapper {
     display: -ms-flexbox;
     display: flex;
@@ -518,3 +540,40 @@ a {
     @media (max-width: 565px) {
       .profile-content p {
         font-size: 1.45em; } }
+
+/*---------------------------*/
+/*-------- SERVICES ---------*/
+/*---------------------------*/
+.service-block {
+  text-align: center; }
+  .service-block .icon-wrapper {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 5px solid #eee;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center; }
+    .service-block .icon-wrapper .icon {
+      color: #1abc9c;
+      font-size: 30px; }
+  .service-block h2 {
+    margin: 30px 0 10px 0;
+    font-size: 1.456em;
+    color: #1abc9c;
+    font-weight: 600; }
+  .service-block p {
+    text-align: center;
+    height: 140px;
+    color: #666;
+    font-weight: 300; }
+    .service-block p b {
+      font-weight: 400; }
+  .service-block .button .icon {
+    font-size: 22px;
+    padding-left: 7px;
+    vertical-align: middle; }
