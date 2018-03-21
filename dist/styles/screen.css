@@ -364,6 +364,9 @@ img, video, canvas {
 p {
   margin: 0; }
 
+ul {
+  list-style-type: none; }
+
 a {
   color: #1abc9c; }
   a:hover {
@@ -406,6 +409,11 @@ section {
   line-height: 1.5;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
+  .button .icon {
+    font-size: 22px;
+    padding-left: 7px;
+    vertical-align: middle;
+    color: rgba(0, 0, 0, 0.2); }
   .button.button-primary {
     background: #3498db;
     border-color: #2980b9; }
@@ -551,7 +559,7 @@ section {
 
 .service-block-inner {
   border: 5px solid #eee;
-  padding: 50px 10px 20px 10px;
+  padding: 50px 0px 20px 0px;
   margin-bottom: 20px;
   z-index: 2;
   position: relative;
@@ -590,19 +598,40 @@ section {
     text-align: center;
     height: 140px;
     color: #666;
-    font-weight: 300; }
+    font-weight: 300;
+    padding: 0 10px; }
     .service-block p b {
       font-weight: 400; }
-  .service-block .button .icon {
-    font-size: 22px;
-    padding-left: 7px;
-    vertical-align: middle;
-    color: rgba(0, 0, 0, 0.2); }
 
 /*------------------------------*/
 /*-------- WEB DEVELOP ---------*/
 /*------------------------------*/
+#web-develop .row {
+  margin-right: 0; }
+
+#web-develop .col {
+  padding: 0; }
+
 .web-develop-img {
   background: url(../images/portfolio-mockup.jpg);
   background-size: cover;
-  height: 500px; }
+  height: 100%; }
+
+.web-develop-content {
+  padding: 50px 0;
+  background-image: url(../images/bg-pattern.png);
+  background-repeat: repeat;
+  text-align: center; }
+  .web-develop-content .section-title {
+    margin-bottom: 0; }
+
+.web-develop-pros {
+  margin: 45px 0 40px 0;
+  font-size: 18px;
+  font-weight: 300;
+  color: #666;
+  text-align: left; }
+  .web-develop-pros li {
+    margin-bottom: 10px; }
+  .web-develop-pros .icon {
+    padding-right: 7px; }
