@@ -476,6 +476,18 @@ section {
 .tel {
   font-family: sans-serif; }
 
+#section-cover {
+  background: url(../images/bg-pattern.png);
+  background-repeat: repeat;
+  border-bottom: 4px solid #eee;
+  text-align: center;
+  padding: 80px 0;
+  margin-top: 80px; }
+  #section-cover h1 {
+    font-family: 'Pacifico', Arial, sans-serif;
+    color: #1abc9c;
+    font-size: 40px; }
+
 /*-------------------------*/
 /*-------- FOOTER ---------*/
 /*-------------------------*/
@@ -658,11 +670,12 @@ section {
 /*------------------------------*/
 /*-------- WEB DEVELOP ---------*/
 /*------------------------------*/
-#web-develop .row {
-  margin-right: 0; }
-
-#web-develop .col {
-  padding: 0; }
+#web-develop {
+  padding-bottom: 0; }
+  #web-develop .row {
+    margin-right: 0; }
+  #web-develop .col {
+    padding: 0; }
 
 .web-develop-img {
   background: url(../images/portfolio-mockup.jpg);
@@ -756,3 +769,57 @@ section {
 .portfolio-item:hover .overlay .portfolio-button.info {
   bottom: 20%;
   opacity: 1; }
+
+.service-main-content {
+  padding-top: 40px; }
+
+h2.sub-title {
+  font-size: 1.4em;
+  font-weight: 600;
+  color: #333;
+  margin: 25px 0 15px 0; }
+
+h3.sub-title {
+  font-size: 1.1em;
+  margin-top: 30px;
+  font-weight: 600; }
+
+.text {
+  margin-bottom: 12px; }
+
+.list {
+  list-style-type: disc;
+  margin: 12px 0px 15px 40px; }
+
+.link {
+  margin-top: 15px;
+  display: block; }
+
+.sidebar {
+  margin-top: 100px; }
+
+.sidebar-block {
+  margin: 20px 0px 40px 0; }
+  .sidebar-block h3 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    font-weight: 300; }
+  .sidebar-block .link-list a {
+    display: block;
+    border: 2px solid #eee;
+    border-bottom-width: 1px;
+    padding: 12px 0px 12px 12px;
+    transition: all .2s;
+    background: url(../images/bg-pattern.png);
+    background-repeat: repeat; }
+    .sidebar-block .link-list a:hover {
+      background: #eee; }
+    .sidebar-block .link-list a.active {
+      background: #1abc9c;
+      color: #fff;
+      border: none; }
+      .sidebar-block .link-list a.active:hover {
+        background: #1abc9c; }
+  .sidebar-block .cta {
+    margin-top: 30px;
+    text-align: center; }
