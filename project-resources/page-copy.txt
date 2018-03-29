@@ -1,5 +1,9 @@
+/*------------------------------*/
+/*---------- Kezdőlap ----------*/
+/*------------------------------*/
+
 Szolgáltatások
-----------------
+---------------
 
  - Weblapkészítés
 	A modern üzleti élet egyik alapköve a webes jelenlét. Közhely, de ma már mindenki az Interneten keres, szolgáltatót, terméket vagy egyszerűen csak információt. Ezért lényeges a célnak megfelelő weblap készítése, a megfelelő webdesign. Egyedi weboldalak már bruttó 50.000 Ft-tól elérhetőek.
@@ -32,6 +36,94 @@ Weboldal készítés
 	- A megfelelő domain és a hozzá szükséges tárhely kiválasztásában is segítek
 	- A weboldal készítés során a te elképzeléseidet alakítom valosággá
 	- Ha a weboldalad tartalmát naprakészen akarod tartani akkor folyamatos karbantartást is vállalok
+
+/*------------------------------------*/
+/*---------- Szolgáltatások ----------*/
+/*------------------------------------*/
+
+Weblapkészítés
+----------------
+Weblapkészítés, honlapkészítés és keresőoptimalizálás, teljes beüzemeléssel. Kérj ajánlatot az új weblapodra!
+
+Modern világunkban már kulcs szerepet tölt be egy sikeres vállalkozás életében a webes jelenlét. Manapság már mindenki az interneten keres bármit amire szüksége van legyen az információ, szolgáltatás vagy termék.
+
+Miért engem válassz?
+Weblapkészítésnél a legfontosabb szemponton az egyedi teljesen a cég arculatára szabott megjelenés továbbá kiemelten figyelek arra, hogy a weboldal minden esetben kiváló felhasználói élményt nyújtson. 
+
+Weblapkészítésnél a következőket tudom felajánlani:
+ - Cég arculatára és az ügyfél elképzelésire szabott web design
+ - Modern, letisztult felület
+ - Keresőbarát kialakítás
+ - Minden eszközre optimalizált, azaz ugyanolyan jól fog mutatni mobilon, tableten mint asztali gépen
+ - Lehetőség a folyamatos karbantartásra képek, videók feltöltése, új aloldal készítése, kisebb változtatások
+
+Miután elkészült az új weboldal, teljeskörű beüzemelés következik tárhely, domain kiválasztása. Weboldal feltöltése és a népszerű keresőkbe való regisztrálás.
+
+Minden szükséges munka folyamtot én elvégzek, így neked már csak be kell írnod az  új weboldalad címét és már ott is lesz, mivel mindent én végzek így rengeteg időt spórolhatunk meg, hiszen nincs várakozás a külső cégekre.
+
+Weblapkészítés Referenciáimat itt találod.
+
+Milyen típusu weblapokat készítek?
+
+HTML5 és CSS3 alapú egyedi statikus weblapkészítés
+
+Ez főként bemutató oldalakat foglal magába lehet az cég, személyes portfólió, termék bemutató oldal vagy bármely egyéb szolgáltatást bemutató oldal ahol általában a konverziós cél a kapcsolat felvétel.
+
+ - Teljesen egyedi: Mivel én készítem a teljes weblapot nulláról ezért teljesen egyedi és személyre szabott lesz.
+ - Gyors: Mivel az oldal nem tartalmaz felesleges funkciókat így nagyon fog betöltődni ez a mai világban kiemelt szempont.
+ - Keresőbarát: Az elkészült weboldal keresőoptimalizált lesz így meg fog jelenni a népszerű keresőkben
+
+Keresőoptimalizálás
+---------------------
+Weblap keresőoptimalizálás
+Amikor kész a honlap a következő nagy feladat a megfelelő keresőoptimalizálása, itt a cél nyílván a Google első oldala de ez nem mindig elérhető rövid határidőn belül, ezért a cél hogy minél magasabban legyünk a találati listán és idővel araszolva felfele az első oldalra.
+
+Egy felmérés szerint a felhasználók jelentős része csak a találati lista első 15-20 találatát nézi meg. Ezért fontos, hogy a weboldal minél jobban keresőoptimalizált legyen, hiszen ezekért a helyekért a verseny igen nagy!
+
+Mi az a keresőoptimalizálás?
+
+A keresőoptimalizálás (angolul Search Engine Optimization, azaz SEO) a weblap keresőmotorokban való megjelenésének javítását jelenti “normál” avagy nem fizetett keresési eredményekben. Internetes marketing stratégiaként a SEO figyelembe veszi a keresőmotorok működését, az emberek keresési hajlamát, a keresési szavakat vagy kulcsszavakat, a célközönség preferált keresőit.
+
+A keresőoptimalizálás folyamata
+
+A teljes folyamatot leírni szinte lehetetlen mert rengeteg faktortól függ és persze nem véletlen, hogy ez mára már egy külön szakma és rengeteg több száz oldalas könyv van már a témában. De ami mindenhol igaz, az alapvető lépések:
+
+ - domain név
+ - megfelelő kulcsszavak kiválasztása
+ - a tartalom megfelelő szerkezete és a szöveg konzekvens kulcsszóra optimalizált kialakítása
+ - keresőkbe történő regisztráció
+ - linképítés (értékes, releváns linkek más weboldalakról)
+ - megfigyelés (Google Analytics)
+
+Mennyi idő alatt érhetőek el eredmények?
+
+Ez legnagyobb mértékben az ágazattól és a kiválasztott kulcsszavaktól függ. De alapvetően a kevésbé használt, erős kulcsszavakra már 1 hónapon belül jó eredményeket lehet elérni, az erős sokak által használt kulcsszavakra azonban akár 2-3 hónap is eltelhet a látható eredményig.
+
+Beüzemelés és Karbantartás
+---------------------------
+Mi az a tárhely?
+A tárhely az a szerver, ahol a weboldalad adatai vannak tárolva. Ezek láthatóak egy böngésző segítségével a kiválasztott domain neven keresztül.
+
+Mi az a Domain?
+A legegyszerűbb értelmezés szerint a domain az interneten közzétett weboldal neve, pl. gt-weblapkeszites.hu. A domain egy szerverre (tárhelyre) mutat, ahol a weboldal adatai vannak tárolva.
+
+Mit foglal magába a beüzemelés?
+
+Teljeskörű beüzemelés beletartozik az alap árba azaz tárhely, domain lefoglalás, weboldal feltöltés és hiba mentesítés, igény esetén egyedi email cím regisztráció stb.
+
+Mit jelent a weboldal karbantartás?
+Általánosságban folyamatos tartalom frissítést tesz ki, képek, videók feltöltése, szövegek átírása. Kisebb felületi, design újítások.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
