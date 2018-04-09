@@ -57,11 +57,79 @@
           </nav>
   </header>
 
+  <section id="contact">
+    <div class="section-title">
+      <h2>- Kapcsolat -</h2>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 contact-form-wrapper">
+          <h3>Írj üzenetet, 1 napon belül felveszem veled a kapcsolatot!</h3>
+          <form action="" id="main-contact-form">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="lastname">Vezetéknév</label>
+                <input type="text" class="form-control" id="lastname" placeholder="Vezetékneved" required>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="firstname">Keresztnév</label>
+                <input type="text" class="form-control" id="firstname" placeholder="Keresztneved" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="email">Email cím</label>
+                <input type="email" class="form-control" id="email" placeholder="Email címed" required>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="tel">Telefonszám</label>
+                <input type="tel" class="form-control" id="tel" placeholder="Telefonszámod" required>
+              </div>
+            </div>
+            <div class="form-group contact-radio-btns">
+              <div class="row">
+                <div class="col-sm-10">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="basic" id="radio-basic" value="basic" checked>
+                    <label class="form-check-label" for="radio-basic">
+                      Egyszerű Csomag
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="standard" id="radio-standard" value="standard">
+                    <label class="form-check-label" for="radio-standard">
+                      Standard Csomag
+                    </label>
+                  </div>
+                  <div class="form-check disabled">
+                    <input class="form-check-input" type="radio" name="premium" id="radio-premium" value="premium">
+                    <label class="form-check-label" for="radio-premium">
+                      Prémium Csomag
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">Üzenet</label>
+              <textarea class="form-control" id="message" rows="8" required></textarea>
+            </div>
+            <button type="submit" class="button button-primary">Elküldés</button>
+          </form>
+        </div>
+        <div class="col-lg-4 contact-tel-wrapper">
+          <h3>Vagy, beszéljünk az új weblapodról még ma!</h3>
+          <span class="tel"><i class="fa fa-phone icon"></i> +36 20 207 7346</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
 <footer id="footer">
         <div class="footer-cta">
           <div class="container">
-            <p>Már döntöttél? Vagy csak nem találtad meg amit kerestél? Kérj árajánlatot az új weblapodra még ma!</p>
-            <a href="index.html" class="button button-info">Árajánlatkérés</a>
+            <p>Már döntöttél? Vagy csak nem találtad meg amit kerestél? Válaszd ki a neked megfelelő árajánlatot még ma!</p>
+            <a href="../arak/" class="button button-info">Weblapkészítés árak</a>
           </div>
         </div>
         <div class="footer-main">

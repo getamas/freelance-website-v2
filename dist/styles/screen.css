@@ -510,7 +510,8 @@ section {
   .footer-cta p {
     font-size: 20px;
     color: #fff;
-    font-weight: 300; }
+    font-weight: 300;
+    padding-right: 60px; }
 
 .footer-main {
   background: #16a085;
@@ -576,7 +577,7 @@ section {
   border: 9px solid #eee;
   text-align: center;
   margin-bottom: 25px;
-  margin-right: 35px; }
+  margin-right: 40px; }
   .profile-img img {
     border-radius: 50%; }
 
@@ -599,7 +600,7 @@ section {
   .profile-content h1.profile-profession {
     font-size: 3em;
     font-weight: 600;
-    padding: 15px 0 5px 0;
+    padding: 15px 0 5px 5px;
     color: #1abc9c;
     text-align: left;
     margin: 0; }
@@ -615,7 +616,8 @@ section {
     font-weight: 300;
     text-align: left;
     margin: 0;
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    padding-left: 7px; }
     @media (max-width: 565px) {
       .profile-content p {
         font-size: 1.45em; } }
@@ -659,7 +661,7 @@ section {
       color: #1abc9c;
       font-size: 30px; }
   .service-block h2 {
-    margin: 30px 0 10px 0;
+    margin: 30px 0 15px 0;
     font-size: 1.456em;
     color: #1abc9c;
     font-weight: 600; }
@@ -669,9 +671,11 @@ section {
     height: 300px;
     color: #666;
     font-weight: 300;
-    padding: 0 15px; }
+    padding: 0 20px; }
     .service-block p b {
       font-weight: 400; }
+  .service-block .button {
+    display: block; }
 
 /*------------------------------*/
 /*-------- WEB DEVELOP ---------*/
@@ -705,7 +709,7 @@ section {
   .web-develop-pros li {
     margin-bottom: 10px; }
   .web-develop-pros .icon {
-    padding-right: 7px; }
+    padding-right: 10px; }
 
 /*----------------------------*/
 /*-------- PORTFOLIO ---------*/
@@ -797,8 +801,12 @@ h3.sub-title {
   margin-bottom: 12px; }
 
 .list {
-  list-style-type: disc;
+  list-style-type: none;
   margin: 12px 0px 15px 40px; }
+  .list li {
+    margin-bottom: 5px; }
+  .list .icon {
+    padding-right: 6px; }
 
 .link {
   margin-top: 15px;
@@ -875,15 +883,92 @@ h3.sub-title {
   .portfolio-item-overlay .icon {
     z-index: 4;
     color: #fff;
-    font-size: 28px;
+    font-size: 35px;
     visibility: hidden;
     opacity: 0;
     transition: all .3s ease-in-out; }
 
 .portfolio-item:hover .portfolio-item-overlay {
   visibility: visible;
-  background: rgba(26, 188, 156, 0.7); }
+  background: rgba(26, 188, 156, 0.8); }
 
 .portfolio-item:hover .portfolio-item-overlay .icon {
   visibility: visible;
   opacity: 1; }
+
+#prices {
+  margin-top: 80px;
+  background: url(../images/bg-pattern.png);
+  background-repeat: repeat; }
+  #prices .section-title {
+    margin-bottom: 100px; }
+
+.price-block {
+  text-align: center;
+  background: #fff; }
+  .price-block.featured {
+    margin-top: -30px; }
+  .price-block .price {
+    padding: 40px 0;
+    background: #eee; }
+    .price-block .price h3 {
+      font-weight: 700;
+      color: #666; }
+
+.price-table-title.basic {
+  background: #f19066; }
+
+.price-table-title.featured {
+  background: #1abc9c; }
+
+.price-table-title.premium {
+  background: #636e72; }
+
+.price-table-title h3 {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.475em;
+  padding: 20px 0;
+  color: #fff;
+  margin: 0; }
+
+.price-table-content {
+  padding-bottom: 20px;
+  border: 2px solid #eee; }
+
+.price-table-list {
+  margin-bottom: 20px; }
+  .price-table-list strong {
+    font-weight: 600; }
+  .price-table-list li {
+    padding: 16px 12px;
+    border-bottom: 1px solid #eee; }
+    .price-table-list li:first-child {
+      border-top: 1px solid #eee; }
+
+#contact {
+  margin-top: 80px;
+  padding-top: 0; }
+  #contact .section-title {
+    background-image: url(../images/bg-pattern.png);
+    background-repeat: repeat;
+    margin-bottom: 0;
+    padding: 100px 0;
+    border-bottom: 2px solid #eee; }
+  #contact h3 {
+    margin-bottom: 35px;
+    margin-top: 50px;
+    color: #1abc9c;
+    font-weight: 300;
+    font-size: 1.565em; }
+
+.contact-radio-btns {
+  margin: 15px 0;
+  padding-left: 15px; }
+
+.contact-tel-wrapper h3 {
+  margin-bottom: 10px; }
+
+.contact-tel-wrapper span.tel {
+  font-size: 1.4em;
+  color: #666; }
