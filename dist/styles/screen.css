@@ -440,47 +440,76 @@ section {
 /*-------------------------*/
 /*-------- NAVBAR ---------*/
 /*-------------------------*/
-#main-navbar {
-  height: 80px;
-  background: #fff;
-  z-index: 5;
-  border-bottom: 3px solid #eee; }
+@media (min-width: 765px) {
+  #main-navbar {
+    height: 80px;
+    background: #fff;
+    z-index: 5;
+    border-bottom: 3px solid #eee; }
+  #main-nav {
+    -ms-flex-pack: end;
+        justify-content: flex-end; }
+    #main-nav .nav-item {
+      margin-right: 20px; }
+      #main-nav .nav-item:last-child {
+        margin-right: 0; }
+    #main-nav .nav-link {
+      font-weight: bold;
+      font-size: .8em;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      letter-spacing: .5px;
+      color: #7f8c8d;
+      transition: all .1s ease-in-out; }
+      #main-nav .nav-link:hover {
+        color: #1abc9c; }
+      #main-nav .nav-link.active {
+        color: #1abc9c; }
+  .navbar-brand {
+    color: #6c757d; }
+    .navbar-brand span.name {
+      font-family: 'Open Sans', Arial, sans-serif;
+      color: #666;
+      display: block;
+      font-size: 18px; }
+    .navbar-brand span {
+      font-family: 'Pacifico', Arial, sans-serif;
+      color: #1abc9c;
+      font-size: 26px;
+      line-height: 1.3; }
+  .tel {
+    font-family: sans-serif; } }
 
-#main-nav {
-  -ms-flex-pack: end;
-      justify-content: flex-end; }
-  #main-nav .nav-item {
-    margin-right: 20px; }
-    #main-nav .nav-item:last-child {
-      margin-right: 0; }
-  #main-nav .nav-link {
-    font-weight: bold;
-    font-size: .8em;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    letter-spacing: .5px;
-    color: #7f8c8d;
-    transition: all .1s ease-in-out; }
-    #main-nav .nav-link:hover {
-      color: #1abc9c; }
-    #main-nav .nav-link.active {
-      color: #1abc9c; }
-
-.navbar-brand {
-  color: #6c757d; }
-  .navbar-brand span.name {
-    font-family: 'Open Sans', Arial, sans-serif;
-    color: #666;
-    display: block;
-    font-size: 18px; }
-  .navbar-brand span {
-    font-family: 'Pacifico', Arial, sans-serif;
-    color: #1abc9c;
-    font-size: 26px;
-    line-height: 1.3; }
-
-.tel {
-  font-family: sans-serif; }
+/* Responsive */
+@media (max-width: 765px) {
+  #main-navbar {
+    padding-left: 0;
+    padding-right: 0;
+    background: #fff;
+    border-bottom: 3px solid #eee; }
+    #main-navbar .navbar-toggler {
+      color: rgba(0, 0, 0, 0.5);
+      border-color: rgba(0, 0, 0, 0.1);
+      margin-right: 15px; }
+    #main-navbar .navbar-toggler-icon {
+      background-image: url(../images/navbar.svg); }
+  .navbar-brand {
+    color: #6c757d;
+    padding-left: 15px; }
+    .navbar-brand span.name {
+      font-family: 'Open Sans', Arial, sans-serif;
+      color: #666;
+      display: block;
+      font-size: 18px; }
+    .navbar-brand span {
+      font-family: 'Pacifico', Arial, sans-serif;
+      color: #1abc9c;
+      font-size: 26px;
+      line-height: 1.3; }
+  #main-nav {
+    margin-top: 10px; }
+    #main-nav .nav-item {
+      padding-left: 15px; } }
 
 #section-cover {
   background: url(../images/bg-pattern.png);
@@ -493,6 +522,9 @@ section {
     font-family: 'Pacifico', Arial, sans-serif;
     color: #1abc9c;
     font-size: 40px; }
+    @media (max-width: 475px) {
+      #section-cover h1 {
+        font-size: 32px; } }
 
 /*-------------------------*/
 /*-------- FOOTER ---------*/
@@ -507,11 +539,20 @@ section {
     -ms-flex-align: center;
         align-items: center;
     padding: 40px 0; }
+    @media (max-width: 780px) {
+      .footer-cta .container {
+        -ms-flex-direction: column;
+            flex-direction: column;
+        text-align: center; } }
   .footer-cta p {
     font-size: 20px;
     color: #fff;
     font-weight: 300;
     padding-right: 60px; }
+    @media (max-width: 780px) {
+      .footer-cta p {
+        margin-bottom: 30px;
+        padding: 0 10px; } }
 
 .footer-main {
   background: #16a085;
@@ -541,6 +582,10 @@ section {
     color: #eee;
     font-size: 14px;
     padding: 45px 0 20px 0; }
+
+@media (max-width: 780px) {
+  #footer .col-lg-4 {
+    margin-bottom: 30px; } }
 
 /*-----------------------*/
 /*-------- HERO ---------*/
@@ -592,6 +637,9 @@ section {
     line-height: 1;
     text-align: left;
     margin: 0; }
+    @media (max-width: 1024px) {
+      .profile-content h1.profile-name {
+        font-size: 3.45em; } }
     @media (max-width: 565px) {
       .profile-content h1.profile-name {
         font-size: 3em; } }
@@ -604,9 +652,12 @@ section {
     color: #1abc9c;
     text-align: left;
     margin: 0; }
+    @media (max-width: 1024px) {
+      .profile-content h1.profile-profession {
+        font-size: 2.2em; } }
     @media (max-width: 565px) {
       .profile-content h1.profile-profession {
-        font-size: 1.75em; } }
+        font-size: 2em; } }
     .profile-content h1.profile-profession .badge {
       margin-left: 5px;
       vertical-align: middle;
@@ -621,10 +672,24 @@ section {
     @media (max-width: 565px) {
       .profile-content p {
         font-size: 1.45em; } }
+    @media (max-width: 1024px) {
+      .profile-content p {
+        font-size: 1.45em; } }
+
+@media (max-width: 965px) {
+  .profile-wrapper .profile {
+    -ms-flex-direction: column;
+        flex-direction: column; }
+  .profile-img {
+    margin-right: 0; } }
 
 /*---------------------------*/
 /*-------- SERVICES ---------*/
 /*---------------------------*/
+@media (max-width: 980px) {
+  #services {
+    padding-bottom: 0; } }
+
 #services .section-title {
   padding-bottom: 50px; }
 
@@ -639,6 +704,9 @@ section {
 
 .service-block {
   text-align: center; }
+  @media (max-width: 980px) {
+    .service-block {
+      margin-bottom: 100px; } }
   .service-block .icon-wrapper {
     position: absolute;
     top: -60px;
@@ -672,6 +740,12 @@ section {
     color: #666;
     font-weight: 300;
     padding: 0 20px; }
+    @media (max-width: 1200px) {
+      .service-block p {
+        height: 400px; } }
+    @media (max-width: 775px) {
+      .service-block p {
+        height: 100%; } }
     .service-block p b {
       font-weight: 400; }
   .service-block .button {
@@ -682,6 +756,9 @@ section {
 /*------------------------------*/
 #web-develop {
   padding-bottom: 0; }
+  @media (max-width: 980px) {
+    #web-develop {
+      padding-top: 0; } }
   #web-develop .row {
     margin-right: 0; }
   #web-develop .col {
@@ -691,6 +768,9 @@ section {
   background: url(../images/portfolio-mockup.jpg);
   background-size: cover;
   height: 100%; }
+  @media (max-width: 775px) {
+    .web-develop-img {
+      height: 400px; } }
 
 .web-develop-content {
   padding: 50px 0;
@@ -706,8 +786,14 @@ section {
   font-weight: 300;
   color: #666;
   text-align: left; }
+  @media (max-width: 475px) {
+    .web-develop-pros {
+      margin-left: 25px; } }
   .web-develop-pros li {
     margin-bottom: 10px; }
+    @media (max-width: 780px) {
+      .web-develop-pros li {
+        margin-bottom: 20px; } }
   .web-develop-pros .icon {
     padding-right: 10px; }
 
@@ -731,6 +817,10 @@ section {
         justify-content: center;
     -ms-flex-align: center;
         align-items: center; }
+    @media (max-width: 980px) {
+      .portfolio-item.more-reference {
+        height: 300px;
+        margin-top: 30px; } }
   .portfolio-item .overlay {
     position: absolute;
     top: 0;
@@ -803,8 +893,14 @@ h3.sub-title {
 .list {
   list-style-type: none;
   margin: 12px 0px 15px 40px; }
+  @media (max-width: 780px) {
+    .list {
+      margin-left: 7px; } }
   .list li {
     margin-bottom: 5px; }
+    @media (max-width: 970px) {
+      .list li {
+        margin-bottom: 15px; } }
   .list .icon {
     padding-right: 6px; }
 
@@ -856,6 +952,9 @@ h3.sub-title {
 .portfolio-item {
   border: 1px solid #eee;
   overflow: hidden; }
+  @media (max-width: 980px) {
+    .portfolio-item {
+      margin-bottom: 30px; } }
   .portfolio-item img {
     transform: scale(1);
     transition: transform .3s ease-in-out; }
@@ -906,8 +1005,14 @@ h3.sub-title {
 .price-block {
   text-align: center;
   background: #fff; }
+  @media (max-width: 980px) {
+    .price-block {
+      margin-bottom: 50px; } }
   .price-block.featured {
-    margin-top: -30px; }
+    margin-top: -40px; }
+    @media (max-width: 980px) {
+      .price-block.featured {
+        margin-top: 0; } }
   .price-block .price {
     padding: 40px 0;
     background: #eee; }
@@ -916,7 +1021,7 @@ h3.sub-title {
       color: #666; }
 
 .price-table-title.basic {
-  background: #f19066; }
+  background: #636e72; }
 
 .price-table-title.featured {
   background: #1abc9c; }
